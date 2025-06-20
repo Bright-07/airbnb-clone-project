@@ -118,29 +118,30 @@ Identifying design properties ensures consistency across the application, makes 
 
 ## 🧱 UI Component Patterns
 
-We plan to build the following reusable components:
+## 🧱 UI Component Patterns
+
+We plan to build the following reusable UI components:
 
 ### 🔸 Navbar
 - Logo
 - Search bar
-- User navigation
-- Responsive menu
+- User navigation links
+- Responsive mobile menu
 
 ### 🔸 Property Card
 - Property image
-- Basic details (price, location, rating)
+- Basic details: price, location, rating
 - Favorite button
-- Responsive layout
+- Clickable layout for navigation to detail page
 
 ### 🔸 Footer
-- Site links
-- Company information
-- Social media links
-- Copyright
+- Site links (About, Help, Contact)
+- Social media icons
+- Company information (name, © 2025)
+- Responsive layout
 
-Each component will be designed for reusability and consistency across the application.
+Each component will be styled to match the Figma design and reused across the site to maintain consistency.
 
----
 
 ## 📁 Project Structure (so far)
 
