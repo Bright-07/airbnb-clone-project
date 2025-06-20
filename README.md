@@ -66,6 +66,21 @@ This project is a full-stack clone of the popular accommodation booking platform
 A well-designed booking system reduces friction in the user journey, increases conversion rates, and improves customer satisfaction. Clear navigation, intuitive interfaces, and responsive design are critical for success.
 
 ---
+### 🎨 Color Styles:
+- Primary: #FF5A5F
+- Secondary: #008489
+- Background: #FFFFFF
+- Text: #222222
+- Secondary Text: #717171
+
+### ✍️ Typography:
+- Font Family: Circular
+  - Headings: Bold (700), 24px–32px
+  - Body: Medium (500), 16px
+  - Secondary Text: Book (400), 14px
+
+### 💡 Why This Matters:
+Design properties ensure a consistent, beautiful, and usable interface. Following defined font sizes, colors, and styles reduces confusion, speeds up development, and gives the site a clean and professional look.
 
 ## 🎨 Figma Design Specifications
 
