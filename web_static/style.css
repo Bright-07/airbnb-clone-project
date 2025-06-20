@@ -101,3 +101,52 @@ body {
   color: #FF5A5F;
   cursor: pointer;
 }
+.property-detail {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+.property-main-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.property-info-box {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.book-button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #FF5A5F;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.checkout-container {
+  padding: 40px 20px;
+  max-width: 600px;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.booking-summary {
+  background: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.booking-summary input[type="date"] {
+  padding: 5px;
+  margin: 0 5px;
+}
