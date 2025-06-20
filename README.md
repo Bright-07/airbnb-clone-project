@@ -1,151 +1,131 @@
-# airbnb-clone-project
 # AirBnB Clone Project
 
-This project is a full-stack clone of the popular accommodation booking platform **AirBnB**. The goal is to build a functional web application that allows users to browse property listings, view detailed property information, and complete bookings.
+This project is a full-stack clone of the popular accommodation booking platform AirBnB. The goal is to build a functional web application that allows users to browse property listings, view detailed property information, and complete bookings.
 
 ---
 
 ## 🚀 Project Goals
 
-- Build a real-world web app with multiple features
-- Practice frontend, backend, and database integration
-- Work in a team using Git & GitHub
-- Learn clean coding and deployment strategies
+- Implement a responsive UI/UX based on mockups
+- Structure a full-stack web application
+- Work collaboratively using Git and GitHub
+- Develop a scalable frontend and backend architecture
+- Learn and apply best practices in web development
 
 ---
 
-## 🧠 Learning Objectives
+## 🛠️ Tech Stack
 
-By completing this project, I aim to:
-
-- Implement responsive UI/UX designs
-- Structure a full-stack web application properly
-- Collaborate effectively in a development team
-- Follow component-based frontend architecture
-- Apply best practices in web development
+- **Frontend:** HTML, CSS, JavaScript (React or similar framework)
+- **Version Control:** Git & GitHub
+- **Design Tools:** Figma
+- **Deployment:** GitHub Pages / Heroku / Render (TBD)
 
 ---
 
-## 🛠 Tech Stack
+## 🎯 Learning Objectives
 
-| Layer         | Tools / Languages                         |
-|---------------|--------------------------------------------|
-| Frontend      | HTML, CSS, JavaScript (React or similar)   |
-| Version Control | Git and GitHub                          |
-| Design        | Figma for UI/UX design                     |
+- Learn to implement responsive UI/UX designs
+- Understand how to structure a complex web application
+- Practice working in a team with defined roles
+- Develop skills in component-based frontend architecture
+- Apply best practices for web app development
 
 ---
 
-## 🔖 UI/UX Design Planning
+## 🎨 UI/UX Design Planning
 
-### 🎯 Design Goals
+### 🔹 Design Goals
 
-- Create an intuitive booking flow
-- Ensure visual consistency across pages
-- Optimize performance and loading speed
+- Create intuitive booking flow
+- Maintain visual consistency
+- Ensure fast loading times
 - Prioritize mobile responsiveness
 
-### ⭐ Key Features
+### 🔹 Key Features
 
-- Property search with filtering
+- Property search and filtering
 - Detailed property viewing
-- Secure checkout system
-- User login and authentication
+- Secure checkout process
+- User authentication
 
 ---
 
 ### 📄 Primary Pages
 
-| Page                   | Description                                                             |
-|------------------------|-------------------------------------------------------------------------|
-| Property Listing View  | Grid display of available properties with filters                       |
-| Listing Detailed View  | Full property details, images, booking form                             |
-| Simple Checkout View   | Streamlined booking and payment confirmation                            |
+| Page                  | Description                                                |
+|-----------------------|------------------------------------------------------------|
+| Property Listing View | Grid display of available properties with filters          |
+| Listing Detailed View | Complete property details with images and booking form     |
+| Simple Checkout View  | Streamlined payment and booking confirmation               |
 
 ---
 
-### 💡 Importance of a User-Friendly Design
+### 🧠 Importance of User-Friendly Design
 
-A clear and responsive booking interface improves:
-- User trust
-- Conversion rates
-- Overall satisfaction
-
-Good UX reduces friction and helps users complete bookings quickly.
+A well-designed booking system reduces friction in the user journey, increases conversion rates, and improves customer satisfaction. Clear navigation, intuitive interfaces, and responsive design are critical for success.
 
 ---
 
 ## 🎨 Figma Design Specifications
 
-### 🎨 Color Styles
+### 🎨 Color Styles:
+- Primary: `#FF5A5F`
+- Secondary: `#008489`
+- Background: `#FFFFFF`
+- Text: `#222222`
+- Secondary Text: `#717171`
 
-- **Primary**: `#FF5A5F`
-- **Secondary**: `#008489`
-- **Background**: `#FFFFFF`
-- **Text**: `#222222`
-- **Secondary Text**: `#717171`
+### ✍️ Typography:
+- **Primary Font:** Circular, Medium (500), 16px
+- **Headings:** Circular, Bold (700), 24px–32px
+- **Secondary Text:** Circular, Book (400), 14px
 
-### 🔤 Typography
-
-- **Primary Font**: Circular
-- **Font Weight**:
-  - Book (400)
-  - Medium (500)
-  - Bold (700)
-- **Font Sizes**:
-  - Primary text: 16px
-  - Headings: 24px – 32px
-  - Secondary text: 14px
-
-### 🧠 Why Design Properties Matter
-
-Identifying colors, fonts, and spacing in Figma helps developers:
-- Match the exact visual design
-- Build consistent components
-- Communicate effectively with designers
+### 🧩 Why Design Properties Matter:
+Identifying design properties ensures consistency across the application, makes implementation easier for developers, and helps maintain a coherent look and feel that users find familiar and comfortable.
 
 ---
 
-## 👥 Roles and Responsibilities
+## 👥 Project Roles and Responsibilities
 
-| Role             | Responsibilities                                                                |
-|------------------|----------------------------------------------------------------------------------|
-| Project Manager  | Oversees tasks, ensures timelines, coordinates team                             |
-| Frontend Devs    | Build UI components, ensure responsive/mobile-friendly layout                   |
-| Backend Devs     | Create API endpoints, manage databases, implement logic                         |
-| Designers        | Create mockups, define design system, ensure usability                          |
-| QA/Testers       | Write and run test cases, find/report bugs                                      |
-| DevOps Engineers | Manage deployment, CI/CD pipeline, and server setup                             |
-| Product Owner    | Define app features, prioritize features, represent user needs                  |
-| Scrum Master     | Facilitate sprints, resolve blockers, guide team through agile process          |
+| Role              | Responsibilities                                                                 |
+|-------------------|----------------------------------------------------------------------------------|
+| **Project Manager** | Oversees timeline, coordinates team, manages deliverables                      |
+| **Frontend Developers** | Implements UI components, ensures responsive design                   |
+| **Backend Developers** | Builds APIs, manages database, implements business logic                |
+| **Designers**     | Creates mockups, maintains design system, ensures UX quality                    |
+| **QA/Testers**    | Writes test cases, performs testing, reports bugs                               |
+| **DevOps Engineers** | Manages deployment, CI/CD pipeline, server infrastructure               |
+| **Product Owner** | Defines requirements, prioritizes features, represents stakeholders             |
+| **Scrum Master**  | Facilitates agile processes, removes blockers, organizes meetings               |
 
 ---
 
 ## 🧱 UI Component Patterns
 
-### 🔲 Planned Components
+We plan to build the following reusable components:
 
-#### 🔹 Navbar
+### 🔸 Navbar
 - Logo
 - Search bar
-- User navigation (Login/Profile)
-- Mobile-friendly menu
+- User navigation
+- Responsive menu
 
-#### 🔹 Property Card
-- Image
-- Price, location, rating
-- Save/favorite button
-- Responsive design
+### 🔸 Property Card
+- Property image
+- Basic details (price, location, rating)
+- Favorite button
+- Responsive layout
 
-#### 🔹 Footer
-- Navigation links
-- Social media
-- Legal links (Terms, Privacy)
+### 🔸 Footer
+- Site links
 - Company information
+- Social media links
+- Copyright
 
-All components will be built for **reusability** and **consistent styling**.
+Each component will be designed for reusability and consistency across the application.
 
 ---
 
-#
+## 📁 Project Structure (so far)
 
